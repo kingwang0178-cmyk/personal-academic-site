@@ -16,25 +16,24 @@ GitHub Profile
     └── homepage-project
 ```
 
-The purpose of this site is to provide a durable place for verified academic identity, research interests, projects, experience, and future work. Information that has not yet been verified is deliberately left as a placeholder rather than invented.
+The site is designed to answer four questions in sequence: who I am, what I am interested in, what I have built, and where I am heading. Information that would constitute a specific verifiable claim is only included when it is confirmed; developing areas remain explicitly marked as such.
 
-## Current site
+## Current content
 
-The first version currently includes:
+The first content-complete version includes:
 
-- Introduction / identity
-- About
-- Research Interests placeholder for verified research direction
-- Selected Work
-- Education / Experience placeholder
-- Contact / Links
-- Responsive desktop and mobile layout
+- **Academic identity** — Biomedical Engineering undergraduate with a developing research direction in neural engineering and brain-computer interfaces (BCI)
+- **Research interests** — neural engineering, BCI, and the computational/technical foundations needed for research
+- **Selected Work** — the Web UI & Interaction Showcase plus ongoing LLM/agent technical exploration
+- **Education** — Zhejiang University, Biomedical Engineering, 2023–2027; academic standing 3 / 120
+- **Current Focus / Future Direction** — strengthening research foundations and preparing toward graduate-level neural engineering / BCI research
+- **Contact / Links** — GitHub profile and the Web UI / Interaction repository
 
-The currently documented project evidence comes from the GitHub account itself, including the separate Web UI & Interaction Showcase.
+Formal laboratory affiliations, research projects, publications, presentations, awards, and additional academic profiles are not claimed until their details are confirmed.
 
 ## Technical approach
 
-The current version is deliberately dependency-free:
+The current version remains deliberately dependency-free:
 
 - HTML5
 - CSS3
@@ -42,7 +41,7 @@ The current version is deliberately dependency-free:
 - Responsive CSS layout
 - No build framework or runtime dependency
 
-This keeps the academic portfolio easy to host, inspect, and maintain while the content is still being established.
+This keeps the portfolio easy to host, inspect, and maintain while allowing the content to evolve independently from the Web/UI showcase.
 
 ## Run locally
 
@@ -56,8 +55,6 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`.
 
-## Content status
+## Content boundary
 
-The current site intentionally does **not** claim specific publications, awards, research results, education details, contact information, or research expertise that are not yet available as verified public source material.
-
-These can be added later without changing the site's overall information architecture.
+This repository intentionally avoids fabricated publications, awards, research results, institutional affiliations, or other major credentials. Directional statements describe current interests and intended development rather than completed achievements.

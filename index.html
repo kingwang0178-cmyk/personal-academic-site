@@ -26,7 +26,7 @@
           <div>
             <h1>Wang King</h1>
             <p class="lead">
-              Biomedical Engineering undergraduate exploring neural engineering, brain-computer interfaces, research, and technical systems.
+              Biomedical Engineering undergraduate exploring neural engineering, brain-computer interfaces, computational systems, and research-oriented engineering practice.
             </p>
           </div>
           <div class="hero-note">
@@ -39,14 +39,14 @@
       </section>
 
       <section id="about" class="section shell split">
-        <div class="section-label"><span>02</span> About</div>
+        <div class="section-label"><span>02</span> Academic Identity</div>
         <div class="section-body">
           <h2>Building toward research at the intersection of engineering, computation, and human neuroscience.</h2>
           <p>
-            I am a Biomedical Engineering undergraduate developing a research-oriented profile around neural engineering and brain-computer interfaces (BCI). My current work spans academic learning, technical exploration, and the construction of tools and interfaces that make complex systems easier to understand and use.
+            I am a Biomedical Engineering undergraduate developing a research-oriented profile around neural engineering and brain-computer interfaces (BCI). My current development combines biomedical engineering study with computational tools, software systems, and research communication.
           </p>
           <p>
-            The portfolio separates two complementary lines of work: academic and research development on one side, and Web UI / interaction engineering on the other. The goal is not to present unrelated projects as one specialty, but to show how engineering ability supports a longer-term research direction.
+            The portfolio distinguishes research-facing work from supporting technical work. The former establishes academic direction and evidence; the latter demonstrates implementation, systems thinking, and the ability to build tools around complex technical problems.
           </p>
         </div>
       </section>
@@ -63,68 +63,113 @@
             <article class="interest-card">
               <p class="interest-number">02</p>
               <h2>Brain-Computer Interfaces</h2>
-              <p>Interfaces that connect neural activity with computational systems, with emphasis on the engineering problems behind reliable interaction.</p>
+              <p>Interfaces connecting neural activity with computational systems, with interest in the engineering problems behind reliable interaction.</p>
             </article>
             <article class="interest-card">
               <p class="interest-number">03</p>
-              <h2>Research Methods &amp; Technical Systems</h2>
-              <p>Developing the computational, analytical, and software foundations needed to conduct and communicate research effectively.</p>
+              <h2>Computational &amp; Research Systems</h2>
+              <p>Building computational foundations, research workflows, and technical tools that support analysis, experimentation, and scientific communication.</p>
             </article>
           </div>
           <p class="muted research-note">
-            These describe the current direction of interest rather than completed research claims. Specific laboratory work, methods, and research questions will be added as they are confirmed and documented.
+            These are current directions of interest, not claims of completed neural engineering or BCI research. Specific laboratory questions and formal research experience remain to be documented.
           </p>
         </div>
       </section>
 
       <section id="work" class="section shell ruled">
         <div class="section-heading">
-          <div class="section-label"><span>04</span> Selected Work</div>
-          <p class="section-intro">A small set of work chosen for what it demonstrates, rather than for repository count.</p>
+          <div class="section-label"><span>04</span> Evidence / Selected Work</div>
+          <p class="section-intro">Selected work is organized by the capability it demonstrates, with research claims kept separate from technical evidence.</p>
         </div>
 
-        <article class="project-card">
-          <div class="project-index">01</div>
-          <div class="project-content">
-            <p class="project-type">WEB / UI / INTERACTION</p>
-            <h2>Web UI &amp; Interaction Showcase</h2>
-            <p>
-              A frontend project exploring responsive interfaces, motion, micro-interactions, component-based structure, and interactive visual experiences. It represents the implementation side of the portfolio rather than a research result.
-            </p>
-            <div class="tags" aria-label="Technologies">
-              <span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span><span>Framer Motion</span>
+        <div class="evidence-group">
+          <p class="group-label">RESEARCH / ACADEMIC EVIDENCE</p>
+          <article class="project-card">
+            <div class="project-index">01</div>
+            <div class="project-content">
+              <p class="project-type">INDEPENDENT STUDY / LLM &amp; AGENT SYSTEMS</p>
+              <h2>LLM &amp; Agent Systems Study</h2>
+              <p>
+                An ongoing structured study of large language models, prompt engineering, context engineering, retrieval-augmented generation, tool use, and agent reliability. The work examines how model behavior, context, tools, and evaluation interact in practical systems.
+              </p>
+              <div class="evidence-grid">
+                <div><strong>Problem</strong><span>Understand and improve reliability in practical LLM-driven workflows.</span></div>
+                <div><strong>Approach</strong><span>Systematic study of model concepts, prompting, context design, agent configuration, evaluation, and iterative experimentation.</span></div>
+                <div><strong>Output</strong><span>Structured learning notes, configuration analyses, experiments, and evolving agent workflows.</span></div>
+                <div><strong>Role</strong><span>Independent learner and system designer.</span></div>
+              </div>
+              <p class="project-meta">Positioning: technical independent study; not presented as formal biomedical research or a publication.</p>
             </div>
-            <a class="text-link" href="https://github.com/kingwang0178-cmyk/homepage-project" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
-          </div>
-        </article>
+          </article>
+        </div>
 
-        <article class="project-card">
-          <div class="project-index">02</div>
-          <div class="project-content">
-            <p class="project-type">RESEARCH / AI / TECHNICAL EXPLORATION</p>
-            <h2>LLM &amp; Agent Systems Study</h2>
-            <p>
-              Ongoing technical study of large language models, prompt engineering, context engineering, retrieval-augmented generation, and agent reliability. The work focuses on understanding how model behavior, context, tools, and evaluation interact in practical systems.
-            </p>
-            <p class="project-meta">Current status: structured learning and system experimentation; no publication or formal research result is claimed here.</p>
-          </div>
-        </article>
+        <div class="evidence-group">
+          <p class="group-label">TECHNICAL / ENGINEERING EVIDENCE</p>
+          <article class="project-card">
+            <div class="project-index">02</div>
+            <div class="project-content">
+              <p class="project-type">TECHNICAL PROJECT / DESKTOP SYSTEM</p>
+              <h2>Prompt Optimizer</h2>
+              <p>
+                A Tauri 2 desktop tool that turns an underspecified prompt into a more executable prompt while attempting to preserve the user's original action and avoid invented constraints. The system combines a React/TypeScript interface, Rust backend, DeepSeek integration, deterministic checks, and regression-oriented evaluation.
+              </p>
+              <div class="evidence-grid">
+                <div><strong>Problem</strong><span>Reduce ambiguity and instability when users give short or underspecified instructions to LLMs.</span></div>
+                <div><strong>Approach</strong><span>Depth and requirement analysis, local guards, scenario-aware prompt construction, structured model output, and post-generation checks.</span></div>
+                <div><strong>Output</strong><span>Working desktop application plus a 41-case quality benchmark and dedicated de-risk evaluation materials.</span></div>
+                <div><strong>Role</strong><span>Independent project development, system design, implementation, and evaluation.</span></div>
+              </div>
+              <div class="tags" aria-label="Technologies">
+                <span>React</span><span>TypeScript</span><span>Tauri 2</span><span>Rust</span><span>DeepSeek</span>
+              </div>
+              <p class="project-meta">Positioning: engineering / independent project evidence; not presented as biomedical research.</p>
+            </div>
+          </article>
 
-        <article class="project-card subdued">
-          <div class="project-index">03</div>
-          <div class="project-content">
-            <p class="project-type">ACADEMIC / PORTFOLIO INFRASTRUCTURE</p>
-            <h2>Personal Academic Site</h2>
-            <p>
-              The academic identity and research portfolio layer of the GitHub account. It is designed as a durable record for future research work, projects, experience, and academic materials rather than as a claimed research output.
-            </p>
-            <span class="text-link disabled">Portfolio in progress</span>
-          </div>
-        </article>
+          <article class="project-card">
+            <div class="project-index">03</div>
+            <div class="project-content">
+              <p class="project-type">SCIENTIFIC COMMUNICATION / VISUALIZATION</p>
+              <h2>Scientific Figure &amp; Research Communication Workflow</h2>
+              <p>
+                An ongoing effort to build a more rigorous workflow for generating publication-oriented scientific figures, including architecture and process diagrams. The work treats figure generation as an engineering and communication problem rather than decorative illustration.
+              </p>
+              <div class="evidence-grid">
+                <div><strong>Problem</strong><span>Produce scientifically structured figures with clearer hierarchy, restrained visual language, and reliable vector output.</span></div>
+                <div><strong>Approach</strong><span>Reusable Python/SVG helpers, semantic diagram primitives, iterative review, and programmatic checks for layout and vector integrity.</span></div>
+                <div><strong>Output</strong><span>Reusable figure-generation workflow, validation scripts, style guidance, and iterative architecture-figure prototypes.</span></div>
+                <div><strong>Role</strong><span>Workflow designer and implementer.</span></div>
+              </div>
+              <p class="project-meta">Positioning: supporting evidence for scientific communication and technical rigor; no specific publication or research result is claimed.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-index">04</div>
+            <div class="project-content">
+              <p class="project-type">WEB / UI / INTERACTION</p>
+              <h2>Web UI &amp; Interaction Showcase</h2>
+              <p>
+                A frontend project exploring responsive interfaces, motion, micro-interactions, component-based structure, and interactive visual experiences. It provides evidence of software implementation and visual interaction design, separate from the academic research track.
+              </p>
+              <div class="evidence-grid">
+                <div><strong>Problem</strong><span>Explore how visual hierarchy and interaction can be implemented as a coherent responsive interface.</span></div>
+                <div><strong>Approach</strong><span>React component architecture, responsive layout, Framer Motion, and interactive card experiences.</span></div>
+                <div><strong>Output</strong><span>A working React/Vite frontend project.</span></div>
+                <div><strong>Role</strong><span>Frontend implementation and interface development.</span></div>
+              </div>
+              <div class="tags" aria-label="Technologies">
+                <span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span><span>Framer Motion</span>
+              </div>
+              <a class="text-link" href="https://github.com/kingwang0178-cmyk/homepage-project" target="_blank" rel="noreferrer">View repository <span>↗</span></a>
+            </div>
+          </article>
+        </div>
       </section>
 
       <section id="background" class="section shell split ruled">
-        <div class="section-label"><span>05</span> Background</div>
+        <div class="section-label"><span>05</span> Education / Background</div>
         <div class="section-body">
           <div class="timeline-item">
             <div class="timeline-date">2023 — 2027</div>
@@ -138,15 +183,15 @@
           <div class="timeline-item">
             <div class="timeline-date">CURRENT</div>
             <div>
-              <p class="timeline-type">INDEPENDENT TECHNICAL EXPLORATION</p>
-              <h2>Research &amp; Engineering Practice</h2>
-              <p>Building technical depth through frontend implementation, AI/LLM systems study, research-oriented workflows, and scientific communication tools.</p>
+              <p class="timeline-type">INDEPENDENT ENGINEERING &amp; RESEARCH DEVELOPMENT</p>
+              <h2>From technical systems toward research capability</h2>
+              <p>Developing computational and engineering depth through LLM/agent systems, scientific communication workflows, frontend implementation, and research-oriented study.</p>
             </div>
           </div>
           <div class="placeholder-panel compact">
-            <p class="status">TO BE EXPANDED</p>
+            <p class="status">RESEARCH EXPERIENCE — TO BE EXPANDED</p>
             <p>
-              Laboratory affiliations, research projects, internships, publications, presentations, awards, and other formal academic experience will be added only when the corresponding details are confirmed.
+              Laboratory affiliations, formal research projects, internships, publications, presentations, awards, and other academic appointments will be added only when the corresponding details are confirmed.
             </p>
           </div>
         </div>
@@ -157,13 +202,13 @@
         <div class="section-body focus-grid">
           <div>
             <p class="focus-label">NOW</p>
-            <h2>Strengthen the research foundation.</h2>
-            <p>Deepen biomedical engineering knowledge while building practical capability in computational tools, scientific communication, and research workflows.</p>
+            <h2>Build evidence, not just direction.</h2>
+            <p>Strengthen Biomedical Engineering foundations while turning computational, engineering, and scientific communication work into documented, reproducible evidence.</p>
           </div>
           <div>
             <p class="focus-label">NEXT</p>
-            <h2>Move toward neural engineering &amp; BCI research.</h2>
-            <p>The current longer-term direction is to pursue graduate-level research in neural engineering and brain-computer interfaces, with specific research questions to be refined through further study and experience.</p>
+            <h2>Move from technical capability toward neural engineering &amp; BCI research.</h2>
+            <p>The longer-term direction is graduate-level research in neural engineering and brain-computer interfaces. Specific questions, laboratory experience, and research methods will be refined through further academic work.</p>
           </div>
         </div>
       </section>
@@ -171,9 +216,9 @@
       <section id="contact" class="section shell split ruled contact-section">
         <div class="section-label"><span>07</span> Contact / Links</div>
         <div class="section-body">
-          <h2>Continue through the work.</h2>
+          <h2>Continue through the evidence.</h2>
           <p>
-            The GitHub profile is the main public entry point. Project repositories contain implementation details, while this portfolio provides academic context and a record of developing interests.
+            The GitHub profile is the main public entry point. This portfolio provides academic context; project repositories and documented technical work provide implementation evidence.
           </p>
           <div class="link-list">
             <a href="https://github.com/kingwang0178-cmyk" target="_blank" rel="noreferrer">GitHub Profile <span>↗</span></a>

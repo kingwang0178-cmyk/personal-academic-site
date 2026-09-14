@@ -16,20 +16,57 @@ GitHub Profile
     └── homepage-project
 ```
 
-The site is designed to answer four questions in sequence: who I am, what I am interested in, what I have built, and where I am heading. Information that would constitute a specific verifiable claim is only included when it is confirmed; developing areas remain explicitly marked as such.
+The site is designed to connect academic identity, research direction, and concrete evidence. Technical projects are included when they demonstrate engineering, computational, systems, or scientific-communication capability, but they are not presented as biomedical research unless that claim is supported by evidence.
 
-## Current content
+## Current evidence layer
 
-The first content-complete version includes:
+The current version distinguishes **research/academic direction** from **technical evidence**:
 
-- **Academic identity** — Biomedical Engineering undergraduate with a developing research direction in neural engineering and brain-computer interfaces (BCI)
-- **Research interests** — neural engineering, BCI, and the computational/technical foundations needed for research
-- **Selected Work** — the Web UI & Interaction Showcase plus ongoing LLM/agent technical exploration
-- **Education** — Zhejiang University, Biomedical Engineering, 2023–2027; academic standing 3 / 120
-- **Current Focus / Future Direction** — strengthening research foundations and preparing toward graduate-level neural engineering / BCI research
-- **Contact / Links** — GitHub profile and the Web UI / Interaction repository
+### Research / Academic Evidence
 
-Formal laboratory affiliations, research projects, publications, presentations, awards, and additional academic profiles are not claimed until their details are confirmed.
+- **LLM & Agent Systems Study** — ongoing independent study of LLMs, prompt engineering, context engineering, RAG, tool use, and agent reliability. It is explicitly presented as technical independent study rather than formal biomedical research.
+
+### Technical / Engineering Evidence
+
+- **Prompt Optimizer** — an independently developed Tauri 2 desktop system combining React/TypeScript, Rust, DeepSeek integration, deterministic guards, and regression-oriented evaluation. Project materials include a 41-case quality benchmark and dedicated de-risk evaluation work.
+- **Scientific Figure & Research Communication Workflow** — an ongoing workflow for publication-oriented scientific figures using reusable Python/SVG tooling, semantic diagram primitives, and programmatic layout/vector checks.
+- **Web UI & Interaction Showcase** — a real React/Vite frontend project demonstrating responsive UI, component structure, motion, micro-interactions, and interactive visual experiences.
+
+Project descriptions follow a **Problem → Approach → Output → Role** structure where the available evidence supports it.
+
+## Academic identity
+
+The current site presents:
+
+- Biomedical Engineering undergraduate identity
+- Developing direction toward neural engineering and brain-computer interfaces (BCI)
+- Computational and engineering capability as supporting evidence
+- Current focus on turning technical work into documented, reproducible evidence
+- Longer-term intention to move toward graduate-level neural engineering / BCI research
+
+These directional statements are not substitutes for formal research experience.
+
+## Education
+
+- Zhejiang University
+- Biomedical Engineering
+- 2023–2027
+- Academic standing: 3 / 120
+
+## Still missing / to be verified
+
+The site intentionally does not invent or imply:
+
+- Laboratory affiliations
+- Formal research assistantships or positions
+- Specific biomedical research projects
+- Publications or conference presentations
+- Awards
+- Internships
+- Experimental results or research findings
+- Direct contact details or additional academic profiles
+
+These are the highest-value future additions because they would provide direct research evidence rather than only supporting technical evidence.
 
 ## Technical approach
 
@@ -41,7 +78,7 @@ The current version remains deliberately dependency-free:
 - Responsive CSS layout
 - No build framework or runtime dependency
 
-This keeps the portfolio easy to host, inspect, and maintain while allowing the content to evolve independently from the Web/UI showcase.
+This keeps the portfolio easy to host, inspect, and maintain while content evolves independently from the Web/UI showcase.
 
 ## Run locally
 
@@ -57,4 +94,4 @@ Then open `http://localhost:8000`.
 
 ## Content boundary
 
-This repository intentionally avoids fabricated publications, awards, research results, institutional affiliations, or other major credentials. Directional statements describe current interests and intended development rather than completed achievements.
+The portfolio uses evidence conservatively: verified project details are presented as facts; directional positioning is labeled as current focus; unsupported academic credentials remain placeholders.

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Prompt Optimizer project showcase — Wang King" />
+    <title>Prompt Optimizer — Project Showcase</title>
+    <link rel="stylesheet" href="./prompt-optimizer.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="./index.html">WANG KING</a>
+        <nav aria-label="Project context">
+          <a href="./index.html">学业成绩</a>
+          <a class="active" href="#project">项目竞赛</a>
+          <a href="#engineering">工程实现</a>
+          <a href="#evidence">评测证据</a>
+        </nav>
+        <span class="page-mark">PROJECT / 01</span>
+      </header>
+
+      <main id="project">
+        <section class="intro">
+          <div class="intro-copy">
+            <p class="eyebrow">PERSONAL PROJECT · 2026</p>
+            <h1>Prompt 优化工具：<br />从模糊需求到可执行指令</h1>
+            <div class="summary-panel">
+              <p><strong>项目定位：</strong>面向日常 LLM 使用的桌面 Prompt 优化工具，将模糊需求交给 DeepSeek 优化为更可执行的 Prompt。</p>
+              <p><strong>核心实现：</strong>需求画像 → 场景策略 → 结构化输出 → 确定性校验，并将“改了什么”与可补充信息分离展示。</p>
+              <p><strong>工程证据：</strong>41 例真实调用质量评测；最近一次记录（2026-09-12）41/41 成功，泄漏 0 例，回退 2 例。</p>
+            </div>
+          </div>
+
+          <aside class="product-frame" aria-label="Prompt Optimizer interface illustration">
+            <div class="frame-label">PROMPT OPTIMIZER · DESKTOP TOOL</div>
+            <div class="app-window">
+              <div class="window-head">
+                <div class="window-brand"><span></span>Prompt Optimizer</div>
+                <div class="window-controls"><i></i><i></i><i></i></div>
+              </div>
+              <div class="app-body">
+                <div class="input-card">
+                  <div class="card-label">输入需求</div>
+                  <p>帮我写个周报</p>
+                </div>
+                <div class="optimize-bar">优化提示词 <span>→</span></div>
+                <div class="result-card">
+                  <div class="card-label">优化结果</div>
+                  <p>保留“写周报”的主行动，补充必要结构与表达约束，不替用户决定内容。</p>
+                </div>
+                <div class="change-card">
+                  <span>改了什么</span>
+                  <b>结果 / 引导分离</b>
+                </div>
+              </div>
+            </div>
+            <p class="frame-caption">输入需求 → LLM 优化 → 结果 / 改动说明</p>
+          </aside>
+        </section>
+
+        <section id="engineering" class="feature-section">
+          <div class="section-heading">
+            <span>核心功能</span>
+            <p>把参考 PPT 中“方法流程 + 代表性成果”的展示逻辑迁移为产品闭环，而不是复刻原项目的内容。</p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-no">01</div>
+              <h2>需求画像</h2>
+              <p>根据 Prompt 的复杂度、任务类型与已有信息形成需求画像，为后续策略选择提供统一入口。</p>
+              <div class="mini-flow">深度 / 场景 / 目标</div>
+            </article>
+            <article class="feature-card">
+              <div class="feature-no">02</div>
+              <h2>Prompt Engine</h2>
+              <p>按命中的场景策略组合指令，调用 DeepSeek 生成结构化结果；优化本体保持为单次 LLM 调用。</p>
+              <div class="mini-flow">画像 → 策略 → LLM</div>
+            </article>
+            <article class="feature-card featured">
+              <div class="feature-no">03</div>
+              <h2>确定性校验</h2>
+              <p>对输出进行可重复的结果检查，重点约束主行动漂移、臆造定量约束等问题；必要时回退原文。</p>
+              <div class="mini-flow">校验 → 接受 / 回退</div>
+            </article>
+          </div>
+        </section>
+
+        <section id="evidence" class="evidence-strip">
+          <div class="evidence-title">
+            <span>核心验证证据</span>
+            <strong>41 / 41 成功</strong>
+          </div>
+          <div class="evidence-items">
+            <div><b>41 CASES</b><span>真实调用质量评测</span></div>
+            <div><b>0 LEAKAGE</b><span>最近一次记录未检出引导泄漏</span></div>
+            <div><b>TAURI 2 + RUST</b><span>桌面端与后端工程实现</span></div>
+          </div>
+        </section>
+
+        <footer class="project-footer">
+          <div><strong>个人职责</strong><span>独立完成需求建模、Prompt Engine、确定性守卫、桌面端实现与质量评测。</span></div>
+          <div class="tech">React 19 · TypeScript · Tauri 2 · Rust · DeepSeek</div>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
